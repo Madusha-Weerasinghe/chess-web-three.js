@@ -3,111 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Three.js Blender Object</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap">
-
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            background-image: url('background6.jpg'); /* Replace 'your_background_image.jpg' with the path to your image */
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center;
-            font-family: Arial, sans-serif; 
-            backdrop-filter: blur(2px);
-            -webkit-backdrop-filter: blur(2px);
-            min-height: 100vh;
-            overflow-x:hidden ;
-            overflow-y:hidden ;
-        }
-        .button-container {
-            position: fixed;
-            top: 10px;
-            left: 10px;
-        }
-        .button {
-            margin-right: 10px;
-        }
-        .object-container {
-            display: none;
-        }
-
-        h1 {
-        margin: 0; /* Remove default margin */
-        padding: 20px 0; /* Add padding to give space around the heading */
-        text-align: center; /* Center the heading */
-        color: black; /* Set text color */
-        font-family: 'Cinzel Decorative', sans-serif;
-        font-size: 40px;
-    }
-
-
-        .button-container {
-            position: fixed;
-            top: 380px;
-            left: 50%; /* Adjust left position to center the buttons */
-            transform: translateX(-50%); /* Center the buttons horizontally */
-            display: flex; /* Use flexbox to align buttons in a row */
-            justify-content: center; /* Center the buttons horizontally */
-            align-items: center; /* Center the buttons vertically */
-        }
-        .button {
-    margin-right: 15px;
-    padding: 10px 33px; /* Adjust padding as needed */
-    background-color: transparent; /* Set background color to transparent */
-    border: 1px solid #ffffff; /* Add button border */
-    border-radius: 15px; /* Add border radius for rounded corners */
-    color: #ffffff; /* Set text color */
-    font-family: 'Cinzel Decorative', sans-serif;
-    font-size: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease; /* Add transition for smoother hover effect */
-}
-        .button:hover {
-            background-color: #cccccc; /* Change background color on hover */
-            color: black;
-        }
-        .object-container {
-            display: none;
-        }
-    
-        a{
-            text-decoration: none;
-        }
-
-        
-
-    </style>
+    <title>Simple HTML Page with Buttons</title>
 </head>
 <body>
 
-<!-- Your existing HTML content here -->
+<!-- Button 1 -->
+<a href="chessPieces.html" button >Button 1</a>
 
-<h1>chess pieces</h1>
+<!-- Button 2 -->
+<a href="chessboard.html" button >Button 2</button></a>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
-<script src="bishopScript.js"></script>
+<!-- Button 3 -->
+<a href="rules.html" button >Button 3</button></a>
 
-<!-- Button container -->
-<div class="button-container">
-    <!-- Button 1 -->
-    <a href="knight.html" class="button">Knight</a>
-    <!-- Button 2 -->
-    <a href="pawn.html" class="button">Pawn</a>
-    <!-- Button 3 -->
-    <a href="queen.html" button class="button">Queen</a>
-    <!-- Button 4 -->
-    <a href="king.html" button class="button">King</a>
-    <!-- Button 5 -->
-    <a href="bishop.html" class="button">Bishop</a>
-    <!-- Button 6 -->
-    <a href="rook.html" class="button">Rook</a>
-</div>
 
 
 </body>
-
-
 </html>
