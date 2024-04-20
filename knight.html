@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three.js Blender Object</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('background6.jpg'); /* Replace 'your_background_image.jpg' with the path to your image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Arial, sans-serif; 
+            backdrop-filter: blur(2px);
+            -webkit-backdrop-filter: blur(2px);
+            min-height: 100vh;
+            overflow-x:hidden ;
+            overflow-y:hidden ;
+        }
+        h1 {
+        margin: 0; /* Remove default margin */
+        padding: 20px 0; /* Add padding to give space around the heading */
+        text-align: center; /* Center the heading */
+        color: black; /* Set text color */
+        font-family: 'Cinzel Decorative', sans-serif;
+        font-size: 40px;
+    }
+
+    #subtitle {
+        margin: 0; /* Remove default margin */
+        padding: 20px 0; /* Add padding to give space around the heading */
+        text-align: left; /* Center the heading */
+        color:white; /* Set text color */
+        font-family: 'Cinzel Decorative', sans-serif;
+        font-size: 40px;
+        
+        position: fixed;
+        top: 100px;
+        left: 12%; /* Adjust left position to center the buttons */
+        
+
+    }
+
+    #text1 {
+        position: fixed;
+        top: 25%;
+        left: 40%; 
+        width: 300px;
+        color: white;
+        font-family: 'Sacramento', cursive;
+    }
+
+    .image {
+            text-align: center;
+            position: fixed;
+            top: 25%;
+            left: 66%; 
+        }
+        .image img {
+            height: 300px;
+            width: 300px;
+        }
+
+    </style>
+</head>
+<body>
+
+<!-- Your existing HTML content here -->
+
+<h1>chess pieces</h1>
+<h1 id = "subtitle">Knight</h1>
+
+<p id = "text1">The chess knight, with its unique L-shaped movement, is a strategic asset, adept in both offense and defense. Its ability to bypass obstacles renders it indispensable in controlling the board and aiding pawn advancement. As the game progresses, it becomes a tactical juggernaut, capable of ambushes and strategic control. Mastery of the knight involves leveraging its agility while guarding against weaknesses, ultimately securing victory through adept maneuvering.
+
+<div class = "image">
+    <img src="k.jpg" alt="Chess Knight Image">
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+<script src="knight.js"></script>
+
+
+
+
+
+</body>
+
+
+</html>

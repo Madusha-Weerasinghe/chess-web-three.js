@@ -1,0 +1,11 @@
+Model Information:
+* title:	Chess King White
+* source:	https://sketchfab.com/3d-models/chess-king-white-dbc96d191fbf4f45855a7c8601488492
+* author:	Petar_Trichkov (https://sketchfab.com/Petar_Trichkov)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Chess King White" (https://sketchfab.com/3d-models/chess-king-white-dbc96d191fbf4f45855a7c8601488492) by Petar_Trichkov (https://sketchfab.com/Petar_Trichkov) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
