@@ -1,6 +1,7 @@
-
 // Initialize Three.js scene
 const scene = new THREE.Scene();
+
+// Create camera
 const camera = new THREE.PerspectiveCamera(
     75,
     window.innerWidth / window.innerHeight,
@@ -8,6 +9,9 @@ const camera = new THREE.PerspectiveCamera(
     1000
 );
 camera.position.z = 8;
+scene.add(camera); // Add camera to the scene
+
+// Create renderer
 const renderer = new THREE.WebGLRenderer({ alpha: true }); // Set alpha to true for transparency
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setClearColor(0x000000, 0); // Set clearAlpha to 0 for transparent background
@@ -25,9 +29,8 @@ scene.add(directionalLight);
 // Create a loader for GLTF files
 const loader = new THREE.GLTFLoader();
 
-
-
 let sixthModel;
+
 loader.load(
     "knight3/scene.gltf",
     function (gltf) {
@@ -63,29 +66,3 @@ loader.load(
         console.error(error);
     }
 );
-
-
-
-
-
-
-// Function to animate the scene
-function animate() {
-    requestAnimationFrame(animate);
-
-    // Update time
-    time += oscillationSpeed;
-
-    // Calculate positions for both models
-    const xPosition = Math.sin(time) * oscillationAmplitude * radiusX;
-    const zPosition = Math.cos(time) * radiusZ;
-    
-    // Set positions for both models
-    
-    sixthModel.position.set(xPosition, 0.5, zPosition);
-    // Rotate both models around the y-axis
-    modelGroup.rotation.y += rotationSpeed;
-    // Adjust rotation speed if needed
-
-    renderer.render(scene, camera);
-}

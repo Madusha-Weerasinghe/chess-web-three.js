@@ -1,0 +1,11 @@
+Model Information:
+* title:	Textured Chess Pieces
+* source:	https://sketchfab.com/3d-models/textured-chess-pieces-2c51aff5ff9f40808e2e9fe8e9c3bf65
+* author:	kand8998 (https://sketchfab.com/KaitlynAndrus)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Textured Chess Pieces" (https://sketchfab.com/3d-models/textured-chess-pieces-2c51aff5ff9f40808e2e9fe8e9c3bf65) by kand8998 (https://sketchfab.com/KaitlynAndrus) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

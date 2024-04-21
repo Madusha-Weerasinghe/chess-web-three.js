@@ -4,19 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple HTML Page with Buttons</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('background6.jpg'); /* Replace 'your_background_image.jpg' with the path to your image */
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Arial, sans-serif; 
+            backdrop-filter: blur(2px);
+            -webkit-backdrop-filter: blur(2px);
+            min-height: 100vh;
+            overflow-x:hidden ;
+            overflow-y:hidden ;
+        }
+    </style>
 </head>
 <body>
 
 <!-- Button 1 -->
-<a href="chessPieces.html" button >Button 1</a>
+<button id="button1">Button 1</button>
 
 <!-- Button 2 -->
-<a href="chessboard.html" button >Button 2</button></a>
+<a id="button2" href="chessboard.html">Button 2</a>
 
 <!-- Button 3 -->
-<a href="rules.html" button >Button 3</button></a>
+<a href="rules.html">Button 3</a>
 
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+<script src="first.js"></script>
 
 </body>
 </html>
