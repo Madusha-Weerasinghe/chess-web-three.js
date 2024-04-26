@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Page with Buttons</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap">
+
+    <title>Chronicles of the Chess Titans</title>
     <style>
         body {
             margin: 0;
@@ -19,19 +21,83 @@
             overflow-x:hidden ;
             overflow-y:hidden ;
         }
+
+        .buttonContainer{
+            position: fixed;
+            top:70%;
+            left: 50%;
+            transform: translateX(-50%); 
+            display: flex; /* Use flexbox to align buttons in a row */
+
+        }
+
+        .buttons{
+            /* margin-left: 115px;
+            margin-right: 145px; */
+            width: auto;
+            color: white;
+            border: 1px solid white;
+            border-radius: 15px;
+            font-family: 'Cinzel Decorative', sans-serif;
+            transition: background-color 0.3s ease;
+            margin: 0 7vw;
+            padding: 2vh 5vw; 
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+            
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .buttons:hover {
+            background-color: #cccccc; /* Change background color on hover */
+            color: black;
+        }
+
+        .object-container {
+            display: none;
+        }
+
+        h1{
+            position: fixed;
+            top:0%;
+            left:26%;
+            font-family: 'Cinzel Decorative', sans-serif;
+            color: rgb(0, 0, 0);
+            font-size: 38px;
+            text-shadow: 1px 1px 0 #ffffff, 
+                 2px 2px 0 #ffe4e4, 
+                 3px 3px 0 #a38b8b;
+            
+        }
+
+
     </style>
 </head>
 <body>
 
+    <h1>Chronicles of the Chess Titans</h1>
+
+    <div class = "buttonContainer">
+
 <!-- Button 1 -->
-<button id="button1">Button 1</button>
+<a href = "chessPieces.html"button id="button1" class = "buttons">Chess Pieces</button>
 
 <!-- Button 2 -->
-<a id="button2" href="chessboard.html">Button 2</a>
+<a href = "chessboard.html" button id="button2" class = "buttons">Chess Board</button>
 
 <!-- Button 3 -->
-<a href="rules.html">Button 3</a>
+<!-- <a href = "rules.html" button id="button3" class = "buttons">Chess Rules</button> -->
+    
+<!-- Button 3 -->
+<a href="rules.html" id="button3" class="buttons">Chess Rules</a>
 
+    
+
+</div>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
